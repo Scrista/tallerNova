@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="/jquery/jquery.js"></script>
+        <script src="/usuario/Usuario.js"></script>
+        <style>
+            th{
+              border: solid black 1pt;  
+            }
+            td{
+              border: solid black 1pt;  
+            }
+        </style>
+    </head>
+    <body>
+        <div>TODO write content</div>
+        
+        <form action="/addUsuario" method="POST">
+            <input type="text" id="nombre" name="nombre"/>
+            <input type="text" id="email" name="email"/>
+            
+            <button type="submit">Guardar</button>
+        </form>
+        
+        <div id="lista">
+            <button id="listar">listar</button>
+            <div id="usuarios">
+                
+            </div>
+            
+        </div>
+        
+    </body>
+</html>
