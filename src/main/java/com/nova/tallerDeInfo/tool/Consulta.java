@@ -23,7 +23,7 @@ public class Consulta {
             connection =  DriverManager.getConnection("jdbc:mysql://localhost:3310/tallerNova", "root", "3edCMysql");
             
         }catch(Exception e){
-            e.printStackTrace();
+            e.printStackTrace();//
         }
       
         return connection;
